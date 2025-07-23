@@ -1,0 +1,51 @@
+.objetivo-principal {
+    display: block; 
+    background-color: #e0f7fa;
+    border: 1px solid #00bcd4;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.regla-basica {
+    display: inline-block; 
+    width: 30%; 
+    margin: 10px 1.5%; 
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box; 
+    vertical-align: top; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 768px) {
+    .regla-basica {
+        width: 90%; 
+        display: block; 
+        margin: 10px auto;
+    }
+}
+.sistema-puntos-cuadro {
+    background-color: #e6f7ff; 
+    border: 1px solid #99ccff; 
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px; 
+}
+
+.sistema-puntos-cuadro ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 10px 0;
+}
+
+.sistema-puntos-cuadro li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #004085;
+}

@@ -1,0 +1,76 @@
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+td {
+        width: 25%;
+            height: 100px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: Arial, sans-serif;
+            color: white;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+
+#rojo {
+    background-color: #FF5733;
+}
+
+#verde {
+ background-color:#33FF57 ;
+}
+
+#Azul {
+    background-color: #3357FF;
+}
+
+#Amarillo {
+    background-color:#F0E68C ;
+
+}
+
+#Purpura {
+    background-color:#8A2BE2 ;
+}
+
+#Tomate{
+    background-color:#FF6347;
+}
+
+#Turquesa{
+    background-color:#40E0D0 ;
+}
+
+#Oro{
+    background-color: #ffd700;
+}
+
+#Rosa{
+    background-color: #ff1493;
+}
+
+#VerdeMar{
+    background-color: #20b2aa;
+}
+#RojoAnaranjado{
+    background-color: #FF4500;
+}
+#VerdeMarino{
+    background-color:#2E8B57 ;
+}
+#Madera{
+    background-color: #8b4513;
+}
+
+#Chocolate{
+    background-color: #d2691e;
+}
+#Carmesi{
+    background-color: #c71585;
+
+}
+
+#NaranjaOscuro{
+    background-color: #ff8c00;
+}

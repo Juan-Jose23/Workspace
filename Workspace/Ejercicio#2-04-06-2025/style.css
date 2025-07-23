@@ -1,0 +1,12 @@
+#encabezado {
+    background-color: black;
+    color: white;
+}
+
+.fila-azul{
+    background-color: aquamarine;
+}
+
+.fila-gris{
+    background-color: grey;
+}

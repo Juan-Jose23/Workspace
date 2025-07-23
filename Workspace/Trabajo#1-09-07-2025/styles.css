@@ -1,0 +1,119 @@
+
+.table-calendar, .list-calendar, .div-list-calendar {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+.table-calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-calendar th, .table-calendar td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+.list-calendar {
+    list-style: none;
+    padding: 0;
+}
+
+.list-calendar li {
+    margin: 5px 0;
+}
+
+.list-calendar li span {
+    padding: 5px;
+}
+
+
+.div-list-calendar {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.task-item p, .task-item span {
+    padding: 5px;
+}
+
+
+.hora1 {
+    display: inline-block;
+    background-color: #b3cde0;
+    color: #1a3c5e; 
+    padding: 5px;
+}
+
+.hora2 {
+    display: inline-block;
+    background-color: #c3e6cb; 
+    color: #1d4d3f; 
+    padding: 5px;
+}
+
+.tarea1 {
+    display: inline-block;
+    background-color: #d3d3d3; 
+    color: #333333; 
+    padding: 5px;
+}
+
+
+
+
+.table-calendar tbody tr:nth-child(odd) td:first-child {
+    background-color: #b3cde0;
+    color: #1a3c5e;
+}
+
+.table-calendar tbody tr:nth-child(even) td:first-child {
+    background-color: #c3e6cb;
+    color: #1d4d3f;
+}
+
+.table-calendar tbody tr td:nth-child(2) {
+    background-color: #d3d3d3;
+    color: #333333;
+}
+
+
+.list-calendar li:nth-child(odd) span:first-child {
+    background-color: #b3cde0;
+    color: #1a3c5e;
+}
+
+.list-calendar li:nth-child(even) span:first-child {
+    background-color: #c3e6cb;
+    color: #1d4d3f;
+}
+
+.list-calendar li span:nth-child(2) {
+    background-color: #d3d3d3;
+    color: #333333;
+}
+
+
+.task-item:nth-child(odd) p {
+    background-color: #b3cde0;
+    color: #1a3c5e;
+}
+
+.task-item:nth-child(even) p {
+    background-color: #c3e6cb;
+    color: #1d4d3f;
+}
+
+.task-item span {
+    background-color: #d3d3d3;
+    color: #333333;
+}

@@ -1,0 +1,102 @@
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+td {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+
+#Calma{
+    border-style: solid;
+    background-color: #fdc945; 
+    border: 5px solid;
+    border-bottom: 20px solid;
+    border-right: 15px solid;
+    border-color: #264653;
+    padding: 20px;
+    margin: 20px;
+}
+#Frustración {
+    border-style: dotted;
+    background-color: #eeda67; 
+    border: 50px dotted;
+    border-bottom: 10px dotted;
+    border-right: 10px dotted;
+    border-color: #ff8800;
+    padding: 10px;
+    margin: 20px;
+}
+ #Gratitud {
+    border-style: solid;
+    background-color: #ffe571; 
+    border: 20px solid;
+    border-bottom: 10px solid;
+    border-right: 10px solid;
+    border-color: #e76f51; 
+    padding: 30px;
+    margin: 10px;
+ }
+#Sorpresa {
+    border-style: solid;
+    background-color: rgb(196, 255, 181);
+    border: 20px solid;
+    border-bottom: 15px solid;
+    border-right: 10px solid;
+    border-color: #dab380;
+    padding: 20px;
+    margin: 20px;
+}
+#Reflexion {
+    border-style: solid;
+    background-color: #ff006f; 
+    border: 10px solid;
+    border-color: #66fff7;
+    padding: 50px;
+    margin: 30px;
+}
+#Asombro{
+    border-style: dotted;
+    background-color: #3700ff; 
+    border: 5px dotted;
+    border-color: #ff8800;
+    padding: 50px;
+    margin: 30px;
+}
+#Desapego{
+    border-style: dotted;
+    background-color: #9d0208; 
+    border: 5px dotted;
+    border-bottom: 30px dotted;
+    border-right: 30px dotted;
+    border-color: #ffdd00;
+    padding: 20px;
+    margin: 20px ;
+}
+#Asco{
+    border-style: dotted;
+    background-color: #d62828; 
+    border: 30px dotted;
+    border-color: #ff6a6a;
+    padding: 50px;
+    margin: 30px;
+    
+}
+#Desagrado{
+    border-style: dotted;
+    background-color: #6a994e; 
+    border: px dotted;
+    border-bottom: 20px dotted;
+    border-right: 10px dotted;
+    border-color: #5c4417;
+    padding: 50px;
+    margin: 30px;
+
+}

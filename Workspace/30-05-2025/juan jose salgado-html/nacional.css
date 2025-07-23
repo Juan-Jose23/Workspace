@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#header {
+    background-color: hsl(141, 100%, 26%);
+    color: #e7e6de;
+    padding: 20px;
+    text-align: center;
+}
+#main {
+    min-height: 80vh;
+    background-image: url('escudo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    border: 1px solid white;
+    padding: 2px 5px 2px 5px;
+    }
+#footer {
+    background-color: #008702;
+    color: #f8f7f1;
+    padding: 20px;
+    text-align: center;
+}
+#footer a {
+    color: #f2f1ea;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
+#logo {
+    max-width: 150px;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+#footer {
+    background-color: black;
+}

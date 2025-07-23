@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4e409, #f94144);
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+    font-size: 2.2em;
+    color: #d00000;
+    margin: 0;
+}
+
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+
+.month {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--month-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.month:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background: var(--month-color);
+    color: white;
+}
+
+
+.month h2 {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: var(--month-color);
+}
+
+
+.month p {
+    font-size: 1.1em;
+    color: #444;
+}
+
+
+.month:hover h2,
+.month:hover p {
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .calendar {
+        grid-template-columns: 1fr;
+    }
+    .month {
+        width: 85%;
+        margin: 10px auto;
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+}

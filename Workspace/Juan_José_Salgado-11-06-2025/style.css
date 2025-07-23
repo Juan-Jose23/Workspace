@@ -1,0 +1,20 @@
+
+        #div-margin {
+            color: hsl(#3b989b);
+            background-color: #4385c4;
+            margin: 40px;
+            border-style: solid;
+        }
+        #div-padding {
+            color: rgb(#0026ff);
+            background-color: #0151fd;
+            padding: 30px;
+            border-style: solid;
+        }
+        #div-border {
+            color: rgb(0, 0, 0);
+            background-color: #376a70;
+            border: 5px solid #0abaf0;
+            border-radius: 8px;
+        }
+   
