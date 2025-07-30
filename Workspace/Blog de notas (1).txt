@@ -1,0 +1,271 @@
+Fecha: 30/04/2025
+
+Juan José Salgado Lopez
+
+
+https://github.com/nmoscatelli/FastMath.git
+Me gusto ya que tiene todas la operaciones basicas de matematicas. esto nos podria ser util para algun juego 
+
+
+
+
+https://github.com/Jairrod18/proyecto-educa.git
+Me gusto mucho el diseño, como esta la distribución de los juegos, el fondo da curiosidad lo cual llama la atención de los niños.
+
+
+
+
+https://github.com/eccubidesg/operaciones.git
+Esta me gusto ya que los niveles me arecen muy interesantes ya que tiene que ver con mi proyecto.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha 07/05/2025
+Juan José Salgado 11°A
+
+¿Qué es HTTP?
+HTTP (Protocolo de Transferencia de Hipertexto) es un protocolo de comunicación que permite la transferencia de datos entre un cliente (como un navegador web)
+ y un servidor a través de internet. Facilita la solicitud y entrega de recursos, como páginas web, utilizando un sistema de mensajes estandarizado.
+
+¿Qué hace el usuario al loguearse?
+El usuario ingresa sus credenciales (nombre de usuario o correo y contraseña) en un formulario, las envía al servidor mediante HTTP/HTTPS al hacer clic en "Iniciar sesión", 
+espera una respuesta y, si es correcta, accede a su cuenta. En caso de error, recibe un mensaje como "credenciales incorrectas".
+
+¿Qué pasa del lado del usuario?
+El navegador o aplicación envía las credenciales al servidor, muestra una pantalla de carga mientras espera, y recibe la respuesta del servidor. Si el acceso es exitoso, 
+se almacena un token o cookie para mantener la sesión activa, permitiendo al usuario navegar sin volver a autenticarse.
+
+¿Qué hace el servidor al loguearse?
+El servidor recibe las credenciales, las verifica contra una base de datos, y autentica al usuario si son correctas. Genera un token o cookie de sesión,
+ lo envía al cliente para mantener la conexión activa y otorga acceso al contenido solicitado. Si las credenciales fallan, devuelve un mensaje de error.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09/05/2025
+
+			Elementos del diagramaentidad relación
+R// 1) Entidades: Objetos principales (ejemplo "Estudiante" Y "Curso"). Rectángulos.
+2) Relaciones: Conexiones entre entidades (ejemplo "Estudiante toma Curso"). Líneas o rombos.
+3) Atributos: Propiedades de entidades (ejemplo "Nombre" Y  "ID"). Óvalos.
+
+
+				Conceptos
+Clave primaria: Es como el carnet único de cada fila en una tabla. Nadie se repite, Ejemplo: el número de el celular
+
+Clave foránea: Un enlace que une dos tablas. Es como un código que apunta a la clave primaria de otra tabla. Ejemplo: el carnet de un estudiante en una tabla de notas.
+
+Clave compuesta: Cuando usas dos o más datos juntos para identificar una fila sin repetir. Ejemplo: número de pedido + fecha para que no se confundan.
+
+
+				Tipos de datos en sql
+1) Números enteros (INT o INTEGER: Caja para números enteros, como tu edad (25) o cuántos libros tienes (3).
+
+2) Números con decimales (FLOAT, DECIMAL, DOUBLE): Para números con decimales, como el precio de un café (4.50) o tu nota (9.8).
+
+3) Texto corto (VARCHAR): Espacio para palabras o frases cortas, como tu nombre (Lucía) o un email.
+
+4) Texto largo (TEXT): Para textos largos, como un mensaje o la descripción de un producto.
+
+5) Fechas y horas (DATE, TIME, DATETIME): Guarda fechas o momentos, como tu cumple (2025-05-09) o una cita (2025-05-09 10:00).
+
+6) Verdadero o falso (BOOLEAN): Solo dice "sí" o "no", como si algo está encendido o apagado.
+
+7) Números grandes (BIGINT): Para números enormes, como las visitas a una web.
+
+8) Caracteres fijos (CHAR): Para textos cortos y fijos, como un código (MX).
+
+9) Archivos o imágenes (BLOB): Caja para fotos, videos o archivos grandes.
+
+
+			Las 3 formas normales de bases de datos
+1) Todo clarito, sin mezclar datos. Cada fila tiene su ID único, y nada de listas en una celda. Ejemplo: no juntes "mates, historia" en una columna.
+
+2) Todo en la tabla debe depender de la clave completa, no solo de un pedacito. Ejemplo: el nombre del cliente va en otra tabla, no con los pedidos.
+
+3) Nada de datos que se deduzcan de otros. Ejemplo: guarda el año de nacimiento, no la edad, porque la calculas.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------14/05/2025
+
+Tipos de datos en mysql, dando una explicación con sus propias palabras, maximo 2 renglones por tipo de dato
+
+Listar los tipos de datos que va a usar mi proyecto
+R// INT: Es como un casillero para números enteros, sin decimales, como edades o cantidades. Puede ser grande o pequeño según lo configures, perfecto para conteos simples
+
+VARCHAR: Un espacio flexible para textos, como nombres o descripciones cortas. Le dices cuántos caracteres puede guardar, ideal para datos que varían
+
+CHAR: Similar a VARCHAR, pero con un tamaño fijo, como un código postal. Siempre ocupa el mismo espacio, rápido para datos uniformes
+
+TEXT: Un cuaderno grande para textos largos, como comentarios o historias. No necesitas definir un límite exacto, libertad para escribir
+
+DATE: Un calendario para guardar fechas, como cumpleaños o eventos. Solo guarda día, mes y año, ordenado y sin complicaciones
+
+DATETIME: Como DATE, pero también guarda la hora, minuto y segundo. Perfecto para registrar momentos exactos, como cuando alguien hizo un pedido
+
+DECIMAL: Un monedero para números con decimales, como precios o porcentajes. Tú decides cuántos dígitos antes y después del punto, precisión total
+
+BOOLEAN: Una lucecita que solo dice "sí" o "no" (1 o 0). Ideal para cosas simples, como si algo está activado o no.
+
+FLOAT: Como DECIMAL, pero para números con decimales que no necesitan tanta precisión. Bueno para cálculos científicos o medidas aproximadas.
+
+BLOB: Una caja fuerte para datos binarios, como imágenes o archivos. Guarda cosas que no son texto, puede ser pesado
+
+R// INT: Para IDs y números enteros como intentos (ej. 5).
+DECIMAL: Para puntajes o respuestas con decimales (ej. 4.5).
+VARCHAR: Para nombres, correos, preguntas cortas, videos o imágenes (ej. "Juan").
+TEXT: Para retroalimentación o textos largos (ej. comentarios).
+DATE: Para fechas como registro (ej. 2025-05-14).
+DATETIME: Para fechas y horas exactas (ej. 2025-05-14 15:43:00).
+BOOLEAN: Para estados verdadero/falso (ej. ejercicio completado).
+CHAR: Para textos fijos como roles (ej. "docente").
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------21/05/2025
+
+Consultar como insertar datos en una tabla en MySQL usando lenguaje SQL
+
+Insertar 4 grupos
+INSERTINTO grupo(id_grupo,nombre_Grupo))
+VALUES(1,'Grupo A')
+
+Insertar 20 estudiantes(5 por grupo)
+INSERTINTO estudiante(id_estudiante,nombre,apellido,id_grupo)
+VALUES(1,'Ana','Martinez',1)
+
+Insertar 6 salones
+
+
+CREATE TABLE estudiante ( id_estudiante INT PRIMARY KEY, nombre VARCHAR(100)NOT NULL, apellido VARCHAR (100) NOT NULL, id_grupo INT, FOREIGN KEY (id_grupo)REFERENCES grupo(id_grupo) );
+CREATE TABLE salon( id_salon INT PRIMARY KEY, numero VARCHAR(10)NOT NULL, ubicaciones VARCHAR(100) );
+CREATE TABLE aseo( id_aseo INT AUTO_INCREMENT PRIMARY KEY, id_estudiante INT NOT NULL, id_salon INT NOT NULL, fecha DATE NOT NULL, rol VARCHAR(50) NOT NULL, FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante), FOREIGN KEY (id_salon) REFERENCES salon(id_salon) );
+INSERT INTO grupo (id_grupo,nombre_grupo) VALUES(1,'Grupo A');
+INSERT INTO grupo (id_grupo,nombre_grupo) VALUES(2,'Grupo A');
+INSERT INTO grupo (id_grupo,nombre_grupo) VALUES(3,'Grupo A');
+INSERT INTO grupo (id_grupo,nombre_grupo) VALUES(4,'Grupo A');
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(1,'Juan','Ramirez',1);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(2,'David','Muentes',1);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(3,'Carlos','Cifuentes',1);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(4,'Saray','Cardona',1);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(5,'Daniel','Sanchez',1);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALU(6,'Enyerberth','Largo',2);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(7,'Manuela','Castro',2);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(8,'Maidy','Granada',2);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(9,'Dylan','Ocampo',2);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(10,'Andres','Villa',2);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(11,'Jeronimo','Ramos',3);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(12,'Antoni','Ocampo',3);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(13,'Mariana','Lopes',3);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(14,'Johan','Cardona',3);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(15,'Michel','Escalante',3);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(16,'Diego','Salgado',4);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(17,'Sofia','Ramirez',4);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(18,'Angely','Cañas',4);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(19,'Ana','Gomez',4);
+INSERT INTO estudiante(id_estudiante,nombre,apellido,id_grupo) VALUES(20,'Valentina','Giraldo',4);
+INSERT INTO salon(id_salon,numero,ubicaciones) VALUES(1,'A101','Edificio A');
+INSERT INTO salon(id_salon,numero,ubicaciones) VALUES(2,'A102','Edificio B');
+INSERT INTO salon(id_salon,numero,ubicaciones) VALUES(3,'A201','Edificio C');
+INSERT INTO salon(id_salon,numero,ubicaciones) VALUES(4,'A202','Edificio D');
+INSERT INTO salon(id_salon,numero,ubicaciones) VALUES(5,'A301','Edificio E');
+INSERT INTO salon(id_salon,numero,ubicaciones) VALUES(6,'A302','Edificio F');
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+28/05/2025
+
+3 Formas de inclusion de estilos en HTML
+
+R// : -Estilos en línea (inline) : Se aplican directamente en el atributo style de una etiqueta HTML
+
+-Estilos internos (embedded) : Se definen dentro de una etiqueta <style> en el <head> del documento HTML.
+
+-Estilos externos : Se definen en un archivo CSS separado y se vinculan al HTML mediante la etiqueta <link> .
+
+Que son direcciones relativas de archivos y como funcionan cuando se incluye una imagen o cualquier otro archivo al HTML
+R// Direcciones relativas son rutas de archivos especificadas en relación con la ubicación del archivo HTML actual, en lugar de una ruta absoluta (que incluye el dominio completo o la ruta desde la raíz del sistema).
+
+Cómo funcionan :
+Las rutas relativas se usan en atributos como src (para imágenes, scripts, etc.) o href (para enlaces CSS, hipervínculos, etc.).
+Se basan en la estructura de carpetas del proyecto. Por ejemplo:
+- Misma carpeta : Si el archivo HTML y la imagen están en la misma carpeta, basta con usar el nombre del archivo.
+
+- Subcarpeta : Si la imagen está en una subcarpeta (por ejemplo, img ), se especifica la carpeta seguida del nombre del archivo.
+
+- Carpeta superior : Si la imagen está en una carpeta superior, se usa ../ para retroceder un nivel en la estructura de directorios.
+
+- Múltiples niveles : Para retroceder varios niveles, se usa ../ repetidamente. Por ejemplo, ../../imagen.jpg retrocede dos carpetas.
+
+NOTA : Si la ruta relativa no está correctamente especificada, el navegador no encontrará el archivo, resultando en un error 404 o contenido roto.
+
+Ventajas de las rutas relativas :
+Portabilidad: El proyecto puede moverse a otro servidor sin cambiar las rutas.
+Simplicidad: No requiere especificar dominios o rutas absolutas.
+
+Desventajas :
+Sensible a la estructura de carpetas: Si se mueve un archivo, las rutas pueden romperse.
+
+
+Buscar que son elementos en bloque(block) y elementos en linea(inline)en HTML
+R// Son elementos que ocupan todo el ancho disponible de su contenedor y comienzan en una nueva línea.
+Generan un "bloque" visual que separa el contenido de otros elementos.
+Ejemplos: <div> , <p> , <h1> a <h6> , <ul> , <li> , <sección> , <artículo> .
+Características :
+Ocupan el 100% del ancho del contenedor (a menos que se modifique con CSS).
+Respetan propiedades como width , height , margin y padding en todas las direcciones.
+
+Elementos en línea (en línea) :
+Son elementos que solo ocupan el espacio necesario para su contenido y no generan saltos de línea.
+Se alinean horizontalmente con otros elementos en línea o texto.
+Ejemplos: <span> , <a> , <img> , <strong> , <em> , <input> .
+Características :
+No respetan propiedades como ancho o alto (a menos que se cambie su pantalla con CSS).
+Pueden aparecer uno junto al otro en la misma línea.
+
+Diferencias clave 
+Disposición : Los elementos en bloque crean una nueva línea; los en línea no.
+
+Dimensiones : Los elementos en bloque aceptan dimensiones completas; los en línea solo el espacio de su contenido.
+
+Uso : Los elementos en bloque se usan para estructuras (contenedores, secciones), mientras que los en línea se usan para pequeños fragmentos de contenido (enlaces, texto destacado).
+
+Nota sobre CSS :
+La propiedad CSS display puede cambiar el comportamiento de un elemento:
+display: block : Convierte un elemento en línea en bloque.
+display: inline : Convierte un elemento en bloque en línea.
+display: inline-block : Combina características de ambos (permite dimensiones como
+-------------------------------------------------------------------------------------------------------------------------06/06/2025
+Consultar que es el modelo de caja en CSS (BOXMODEL)
+R// El modelo de caja en CSS define cada elemento como un rectángulo con cuatro partes: contenido, relleno, borde y margen. El contenido muestra el elemento, el relleno es el espacio interno, el borde lo rodea y el margen es el espacio externo.
+
+¿Que sistemas de medidas se usan en css?
+R// Las unidades absolutas (px, cm, mm, in, pt, pc) tienen tamaño fijo, ideales para impresión. Las relativas (%, em, rem, vw, vh, vmin, vmax, ch) dependen del contexto, como el tamaño de fuente o la ventana, perfectas para diseños responsivos.
+-------------------------------------------------------------------------------------------------------------------------11/07/2025
+¿Qué es diseño responsivo?
+R/ El diseño responsivo es una técnica de desarrollo web que permite que las páginas se adapten de forma automática y óptima a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia de usuario consistente y funcional. Se basa en el uso de unidades relativas, media queries y diseños fluidos para ajustar el contenido, imágenes y estructuras según las características del dispositivo, como su resolución o orientación.
+
+¿Qué es un grid en diseño responsivo?
+R/ Un grid en diseño responsivo es un sistema de rejilla basado en filas y columnas que organiza el contenido de manera estructurada y adaptable. En CSS, los grids (como CSS Grid) permiten definir áreas específicas para los elementos de una página, facilitando la alineación y el redimensionamiento automático según el tamaño de la pantalla. Este enfoque asegura que el diseño mantenga proporciones y disposición coherentes en distintos dispositivos.
+
+¿Qué dispositivos se deben de tener en cuenta en diseño responsivo?
+R/ En diseño responsivo, se deben considerar dispositivos como teléfonos móviles (smartphones), tabletas, computadoras portátiles, computadoras de escritorio y, en algunos casos, dispositivos emergentes como relojes inteligentes o televisores conectados. Los tamaños de pantalla varían ampliamente, desde resoluciones pequeñas (320 px de ancho) hasta pantallas de alta resolución (4K o superiores), por lo que es crucial probar en rangos representativos, como móviles (320-768 px), tabletas (768-1024 px) y escritorios (1024 px en adelante).
+
+¿Aplica el diseño responsivo según el navegador?
+R/ El diseño responsivo no depende directamente del navegador, ya que se basa en estándares web soportados por la mayoría de los navegadores modernos (como Chrome, Firefox, Safari o Edge). Sin embargo, es importante considerar las diferencias en la implementación de ciertas propiedades de CSS (como CSS Grid o Flexbox) en navegadores más antiguos o menos comunes. Herramientas como prefijos de proveedores (-webkit-, -moz-) y pruebas de compatibilidad aseguran que el diseño funcione correctamente en distintos navegadores.
+
+¿Qué es FlexBox en diseño responsivo?
+R/ Flexbox, o el Módulo de Caja Flexible de CSS, es un sistema de diseño que permite organizar elementos de manera unidimensional (en filas o columnas) de forma flexible y eficiente. En diseño responsivo, Flexbox facilita la alineación, distribución y reordenamiento de elementos dentro de un contenedor, adaptándose a diferentes tamaños de pantalla. Propiedades como flex-direction, justify-content y flex-wrap permiten controlar el comportamiento de los elementos, haciendo que el diseño sea más dinámico y adaptable sin necesidad de cálculos complejos.
+-------------------------------------------------------------------------------------------------------------------------
+30/07/2025
+-¿Que es un framework CSS en diseño web?
+R// Un framework CSS es una biblioteca de código predefinida que proporciona estilos, componentes y herramientas estandarizadas para facilitar y agilizar el desarrollo de sitios web. Está basado en CSS (Cascading Style Sheets) y, en muchos casos, incluye HTML y JavaScript para añadir estructura e interactividad. Estos frameworks ofrecen un conjunto de reglas CSS, clases utilitarias y componentes preconstruidos (como botones, barras de navegación, formularios, etc.) que permiten a los desarrolladores crear interfaces de usuario responsivas y consistentes sin escribir todo el código desde cero. Además, suelen incluir sistemas de rejilla (grid) para diseños adaptativos y soporte para navegadores modernos, siguiendo enfoques como mobile-first. Ejemplos de frameworks CSS incluyen Bootstrap, Tailwind CSS, Bulma y Foundation.
+
+¿Que es Bootstrap en diseño web?
+R//Bootstrap es un framework CSS de código abierto, originalmente desarrollado por Twitter en 2011, diseñado para crear sitios web y aplicaciones web responsivas y orientadas a dispositivos móviles (mobile-first). Combina HTML, CSS y JavaScript para ofrecer una amplia gama de componentes predefinidos, como botones, formularios, barras de navegación, modales, tarjetas y carruseles, que facilitan la creación de interfaces de usuario atractivas y funcionales. Su sistema de rejilla basado en 12 columnas permite organizar el contenido de manera flexible y adaptable a diferentes tamaños de pantalla. Bootstrap es altamente personalizable mediante variables Sass o CSS, y su enfoque mobile-first prioriza la optimización para dispositivos móviles antes de escalar a pantallas más grandes. Además, cuenta con una gran comunidad de desarrolladores y una documentación extensa, lo que lo hace ideal tanto para principiantes como para experto
+
+- Identifica 2 sitios hechos con bootstrap, listarlos e inspeccionar la linea de codigo donde es claro que estos sitios usan Bootstrap
+R//
+1.https://www.iesanlorenzodeaburra.edu.co/
+
+.text-start {
+    text-align: left !important;			bootstrap.css:8035
+}
+
+2. https://iegabrielrestrepo.edu.co/
+
+*, *::before, *::after {
+    box-sizing: border-box;			bootstrap.css:79
+}
