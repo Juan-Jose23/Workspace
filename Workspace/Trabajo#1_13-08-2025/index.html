@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequeños Matemáticos - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .navbar {
+            background-color: #28a745;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            color: #ffeb3b !important;
+        }
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        .team-section {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+        .team-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .team-card:hover {
+            transform: scale(1.05);
+        }
+        .team-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .footer {
+            background-color: #004d40;
+            color: #fff;
+            padding: 30px 0;
+        }
+        .btn-primary {
+            background-color: #2196f3;
+            border-color: #2196f3;
+        }
+        .btn-primary:hover {
+            background-color: #1976d2;
+            border-color: #1976d2;
+        }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pequeños Matemáticos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#juegos">Juegos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cuestionarios">Cuestionarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#progreso">Progreso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Suma_resta.jpg" class="d-block w-100" alt="Suma y Resta">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>¡Aprende Suma y Resta!</h5>
+                    <p>Juegos interactivos para dominar las operaciones básicas.</p>
+                    <a href="#juegos" class="btn btn-primary">Explorar Ahora</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Multiplicacion.jpg" class="d-block w-100" alt="Multiplicación">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>¡Multiplicación Emocionante!</h5>
+                    <p>Practica multiplicaciones con actividades lúdicas.</p>
+                    <a href="#juegos" class="btn btn-primary">Comenzar</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Dividir.jpg" class="d-block w-100" alt="División">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>¡División sin Miedo!</h5>
+                    <p>Supera tus retos con nuestras herramientas interactivas.</p>
+                    <a href="#juegos" class="btn btn-primary">Jugar Ahora</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    
+    <section class="team-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestro Equipo</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card team-card text-center">
+                        <img src="Jero.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Jerónimo Arroyave Ramos</h5>
+                            <p class="card-text">Estudiante de 11°A, apasionado por el desarrollo de software.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card team-card text-center">
+                        <img src="Dylan.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Dylan Ocampo Tejada</h5>
+                            <p class="card-text">Estudiante de 11°A, enfocado en crear soluciones educativas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card team-card text-center">
+                        <img src="Juan.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan José Salgado López</h5>
+                            <p class="card-text">Estudiante de 11°A, comprometido con la innovación tecnológica.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card team-card text-center">
+                        <img src="Simon.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Simón Ávila Serna</h5>
+                            <p class="card-text">Estudiante de 11°A, entusiasta de la programación educativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Acerca de Pequeños Matemáticos</h5>
+                    <p>Pequeños Matemáticos es una aplicación interactiva diseñada para estudiantes de tercer grado de la Institución Educativa Las Nieves, Medellín. Nuestro objetivo es fortalecer las operaciones matemáticas básicas a través de juegos, cuestionarios y herramientas digitales lúdicas, promoviendo un aprendizaje efectivo y divertido.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#juegos" class="text-white">Juegos</a></li>
+                        <li><a href="#cuestionarios" class="text-white">Cuestionarios</a></li>
+                        <li><a href="#progreso" class="text-white">Progreso</a></li>
+                        <li><a href="#contacto" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contacto</h5>
+                    <p>Institución Educativa Las Nieves<br>Comuna 3, Medellín, Colombia<br>Email: contacto@pequenosmatematicos.edu.co</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2025 Pequeños Matemáticos. Proyecto desarrollado por estudiantes de 11°A, Media Técnica en Sistemas de Información.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
