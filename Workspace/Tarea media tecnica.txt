@@ -1,0 +1,23 @@
+1) Manejo de variable en Javascript
+
+https://youtu.be/KC_2cyV5lzE?si=NUT1jtgiGQLx9Dy5
+
+2)Como funciona en IF en Javascript
+
+https://youtu.be/oqTpGpy4WDo?si=AWzbymd00qiZyxB4
+
+3)Como funciona WHILE en Javascript
+
+https://youtu.be/6vl2i2Woqqs?si=Xam0zCYalZ_IjA0s
+
+4)Como funciona FOR en Javascript
+
+https://youtu.be/Br4BRK8iYVs?si=qNQ59ZUpemuocdkM
+
+5)Como seleccionar elementos en Javascript
+
+https://youtu.be/Qps9i6OrD4U?si=HJxPmpTzS77uUuR0
+
+6)como modificar elementos en Javascript
+
+https://youtu.be/dr8rsHjl0Cc?si=y4jSUtgHcjrqmDZ3
