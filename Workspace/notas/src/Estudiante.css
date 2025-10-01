@@ -1,0 +1,11 @@
+.container-nombre {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+}
+
+.nombre {
+    background: #00ff2a;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
